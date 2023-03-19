@@ -1,2 +1,2 @@
 5. Faça uma funçao que receba um numero inteiro n > 0 e determine se este e um numero primo. A funçao deve retornar um valor booleano: true ou false.
-Prototipo: bool ehPrimo(int n);
+Prototipo: bool ehPrimo(int n)
