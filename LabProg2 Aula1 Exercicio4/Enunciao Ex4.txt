@@ -1,0 +1,3 @@
+4. Faça uma funçao que, dados uma string str e um caractere ch, procure e retorne a posiçao da primeira ocorrencia de ch na string str. Se ch nao for encontrada em str, retornar o valor −1.
+int procuraCharNaString(string str, char ch);
+Dica: para saber o tamanho da string use str.size().
