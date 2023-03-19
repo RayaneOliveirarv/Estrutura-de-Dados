@@ -1,30 +1,34 @@
 #include <iostream>
-#include <string>
 
 using namespace std;
 
-int procuraCharNaString(string str, char ch)
+bool ehPrimo(int n)
 {
-    for(int i=0; i<str.size(); i++)
+    int i, div=0;
+    for(i=1; i<=n; i++)
     {
-        if(str[i]==ch)
+        if (n%i==0)
         {
-            return i;
+            div++;
         }
     }
-    return -1;
+    if (div==2)
+    {
+        return true;
+    }
+    else
+    {
+        return false;
+    }
 }
 
 int main()
 {
-    string str;
-    char ch;
-    int r;
-    cout << "Digite a string" << endl;
-    cin >> str;
-    cout << "Digite um caracter" << endl;
-    cin >> ch;
-    r = procuraCharNaString(str, ch);
-    cout << r << endl;
+    int n;
+    bool r;
+    cout << "Digite n" << endl;
+    cin >> n;
+    r = ehPrimo(n);
+    cout << r;
     return 0;
 }
