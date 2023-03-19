@@ -1,0 +1,3 @@
+6. Faça um programa que leia os valores logicos de X, Y e Z e armazene o resultado das seguintes operaçoes logicas:
+I(X && Y) || (X && !Z)
+I (X || Y) && (!X && Z)
