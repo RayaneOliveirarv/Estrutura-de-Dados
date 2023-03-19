@@ -1,0 +1,2 @@
+7. Faça uma funçao para calcular o fatorial de um numero inteiro n > 0. Faça um programa que leia um numero inteiro do teclado, em seguida utilize a funçao para calcular o seu fatorial e, por fim, exiba o resultado na tela.
+int fatorial(int n);

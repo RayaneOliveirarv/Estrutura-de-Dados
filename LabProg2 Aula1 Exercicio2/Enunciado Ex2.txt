@@ -1,0 +1,2 @@
+2. Implemente agora o exercicio (1) utilizando uma funçao que possua o seguinte prototipo: 
+float leCalculaMedia(int n);

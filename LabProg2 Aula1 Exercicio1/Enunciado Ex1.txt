@@ -1,0 +1,1 @@
+1. Faça um programa que leia do teclado um numero inteiro n e em seguida leia n numeros reais e calcule a sua media.

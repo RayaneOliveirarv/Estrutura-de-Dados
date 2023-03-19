@@ -1,0 +1,2 @@
+3. Faça uma funçao que receba como parametros um vetor de numeros reais e o seu tamanho n e que leia do teclado n numeros reais, guarde-os no vetor e calcule a sua media. A funçao deve retornar a media ao final.  
+float leVetorCalculaMedia(int n, float vet[]);
