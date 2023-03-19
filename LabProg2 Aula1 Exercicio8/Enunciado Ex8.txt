@@ -1,0 +1,2 @@
+8. Fac ̧a um programa que leia um numero inteiro n e um
+numero real x. Em seguida calcule a seguinte soma S = somatorio de i=0 até n, de x^i utilizando uma funçao.
